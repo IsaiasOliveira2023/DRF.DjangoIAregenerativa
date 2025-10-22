@@ -1,7 +1,9 @@
 🤖 Assistente Conversacional de Gerenciamento Acadêmico (DRF + Gemini + Anthropic)
 🎯 Objetivo do ProjetoEste projeto integra um frontend conversacional construído com Streamlit e as APIs de ponta Google Gemini e Anthropic (Claude) para extração de intenção e parâmetros, com um backend robusto de gerenciamento de dados acadêmicos construído com Django Rest Framework (DRF).O assistente permite que o usuário gerencie cadastros (CRUD) de matérias, professores e reservas de laboratório usando comandos de linguagem natural, eliminando a necessidade de interagir diretamente com o banco de dados ou endpoints da API.✨ Tecnologias UtilizadasComponenteTecnologiaFunçãoBackend (API)Python / Django Rest Framework (DRF)Gerencia os dados (Matérias, Professores, Reservas) e expõe os endpoints REST.Frontend (Interface)Python / StreamlitCria a interface de chat interativa.Inteligência Artificial (Extração principal)Google GeminiExtrai a intenção (o que fazer) e os parâmetros (os dados) da mensagem do usuário (uso principal no extrair_intencao).Inteligência Artificial (Configuração)Anthropic (Claude)Biblioteca configurada para uso futuro/alternativo em tarefas de LLM (embora não seja o extrator principal no código atual).ComunicaçãorequestsPermite que o Streamlit se comunique com a API Django.
 
-modo de usar
+https://drive.google.com/file/d/17gJPOsRf_89hbDKD5u8MpZ8GWmKTnS-l/view?usp=sharing
+
+modo de usar 
 gere as keys e coloque no lugar delas em secrets.toml
 
 depois siga seus passos para localizar o arquivo mostrei meu exemplo de caminho as segundas linhas pode seguir iguais
